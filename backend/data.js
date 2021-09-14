@@ -17,7 +17,7 @@ const data={
   ],
     products:[
         {
-            _id: '1',
+           
       name: 'Barcelona Shirt',
       category: 'Shirts',
       image: '/images/Barcelona.jpg',
@@ -28,8 +28,7 @@ const data={
       numReviews: 10,
       description: '2021/2022 Barcelona home shirt',
         },
-        {
-            _id: '2',
+        {          
             name: 'West Ham Shirt',
             category: 'Shirts',
             image: '/images/WestHam.jpg',
@@ -40,8 +39,7 @@ const data={
             numReviews: 17,
             description: '2021/2022 west ham home shirt',
           },
-          {
-            _id: '3',
+          {            
             name: 'Real Madrid Shirt',
             category: 'Shirts',
             image: '/images/RealMadrid.jpg',
@@ -52,8 +50,7 @@ const data={
             numReviews: 10,
             description: '2021/2022 Real Madrid home shirt',
           },
-          {
-            _id: '4',
+          {            
             name: 'Champions League ball',
             category: 'Balls',
             image: '/images/ChampionsLeague.jpg',
@@ -64,8 +61,7 @@ const data={
             numReviews: 14,
             description: 'Official 2021/2022 champions league ball',
           },
-          {
-            _id: '5',
+          {            
             name: 'Euro 2020 ball',
             category: 'Balls',
             image: '/images/Euro2020.jpg',
@@ -76,8 +72,7 @@ const data={
             numReviews: 10,
             description: 'Official Euro 2020 ball',
           },
-          {
-            _id: '6',
+          {            
             name: 'Bundesliga ball',
             category: 'Balls',
             image: '/images/Bundesliga.jpg',
