@@ -12,7 +12,7 @@ const app=express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // eslint-disable-next-line no-undef
-mongoose.connect(process.env.MONGODB_URL ||'mongodb://localhost/FootballShop', {
+mongoose.connect(process.env.MONGODB_URL ||'mongodb+srv://Sasha:loloshka2002@cluster0.djegy.mongodb.net/FootballShop', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 
