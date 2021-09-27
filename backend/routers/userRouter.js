@@ -88,8 +88,8 @@ userRouter.put(
 );
 userRouter.get(
   '/',
-  isAuth,
-  isAdmin,
+  //isAuth,
+  //isAdmin,
   expressAsyncHandler(async (req, res) => {
     const users = await User.find({});
     res.send(users);

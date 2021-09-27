@@ -36,8 +36,8 @@ productRouter.get(
 );
 productRouter.post(
   '/',
-  isAuth,
-  isAdmin,
+  //isAuth,
+ // isAdmin,
   expressAsyncHandler(async (req, res) => {
     const product = new Product({
       name: 'sample name ' + Date.now(),

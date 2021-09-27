@@ -16,8 +16,7 @@ const data={
     },
   ],
     products:[
-        {
-           
+        {    
       name: 'Barcelona Shirt',
       category: 'Shirts',
       image: '/images/Barcelona.jpg',
