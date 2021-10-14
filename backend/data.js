@@ -7,6 +7,14 @@ const data={
       email: 'sasha.grabar.20.03.02@gmail.com',
       password: bcrypt.hashSync('1234', 8),
       isAdmin: true,
+      isSeller: true,
+      seller: {
+        name: 'Sasha',
+        logo: '/images/logo1.png',
+        description: 'The best',
+        rating: 4.5,
+        numReviews: 120,
+      },
     },
     {
       name: 'Alex',
